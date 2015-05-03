@@ -17,4 +17,4 @@ class Myclass(Ellipse,Square,Rectangle,Circle):
             print(shapes[i])
         return(sum(shapes))
 q=Myclass()
-print("总面积是：",q.compute_area([q.Ellipse(10,20),q.Square(20),q.Rectangle(20,30)]))
+print("总面积是：",q.compute_area([q.Ellipse(10,20),q.Square(20),q.Rectangle(20,30)，q.Circle(16)]))
